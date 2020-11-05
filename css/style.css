@@ -1,0 +1,21 @@
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/header.css");
+
+
+
+
+body {
+	font-family: Lato;
+	font-size: 15px;
+	margin: 0px; 
+}
+
+h1, h2, h3 {
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 43px;
+}

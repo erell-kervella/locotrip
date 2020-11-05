@@ -1,0 +1,70 @@
+.header div {
+  	display: flex;
+ 	justify-content: center;
+	color:blue;
+	width:100%;
+	border: 0px solid red;
+}
+
+
+.title {
+	position: relative;
+ 	top: 20px;
+
+    font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 26px;
+	/* identical to box height */
+
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+}
+
+.action {
+	position: relative;
+ 	top: 0px;
+ 	max-width:  30%;
+
+    font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 10px;
+	/* identical to box height */
+
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+
+}
+
+.menu {
+	position: relative;
+ 	top: 20px;
+
+    font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	/* identical to box height */
+
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+
+}
+
+
+.action li {
+	float: left;
+	margin: 0px 20px 0px 0px;
+	list-style-type: none; 
+	}
+
+.menu li {
+	float: left;
+	margin: 0px 10px 0px 0px;
+	list-style-type: none; 
+
+}

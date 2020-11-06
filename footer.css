@@ -1,0 +1,61 @@
+.speaker-form {
+  background-color: #F6F7F8;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  
+  width: 40%;
+  padding: 10px;
+  margin: 0 0 40px 0;
+}
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input[type='text'] {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 15px;
+}
+
+.locotrip-c {
+  position: absolute;
+  bottom: -300px;
+  left: 10px;
+}
+
+.designed {
+  position: absolute;
+  bottom: -300px;
+  right: 10px;
+}
+
+.list-inline {
+  position: absolute;
+  bottom: -200px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.list-inline li {
+  float: left;
+  margin: 0px 10px 0px 0px;
+  list-style-type: none; 
+}

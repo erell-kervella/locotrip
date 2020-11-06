@@ -1,22 +1,111 @@
-@import url("components/container.css");
-@import url("components/banner.css");
-@import url("components/header.css");
-@import url("components/footer.css");
-
-
-
-
-body {
-	font-family: Lato;
-	font-size: 15px;
-	margin: 0px; 
+/* GENERAL TO THE PAGE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
 }
 
-h1, h2, h3 {
 
-	font-family: Playfair Display;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 32px;
-	line-height: 43px;
+
+/* CLASS FOR CONTAINER */
+.container {
+  display: flex;
+  justify-content: center;
 }
+
+.example {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 15px 0;
+  /* background-color: #D6E9FE; BACKGROUND TO SEE CONTAINER DISABLE IN PRODUCTION*/
+}
+
+/* CLASS FOR MENU */
+
+.item-left{
+  width: 30%;
+}
+
+.item-right{
+  width: 70%;
+}
+
+.item-relative {
+  position: relative;
+  top: -5px;
+  left: 0px;
+}
+
+.title {
+	font-size: 24px;
+	line-height: 26px;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+}
+
+.action {
+	font-size: 10px;
+	line-height: 10px;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+}
+
+.action li {
+	float: left;
+	margin: 0px 20px 0px 0px;
+	list-style-type: none; 
+	}
+
+.menu {
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+}
+
+.menu li {
+	float: left;
+	margin: 0px 10px 0px 0px;
+	list-style-type: none; 
+}
+
+/* CLASS FOR BODY */
+.banner-image {
+
+	margin: 10px 10px 0px 0px;
+	width: 95%;
+
+}
+
+.banner-texte {
+	margin: 10px 10px 0px 0px;
+	max-width: 100%;
+}
+
+.banner-texte h2 {
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* CLASS FOR FOOTER */
+.socialnetwork {
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+}
+
+
+.list-inline li {
+  float: left;
+  margin: 0px 10px 0px 0px;
+  list-style-type: none; 
+}
+
+

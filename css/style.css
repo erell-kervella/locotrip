@@ -73,6 +73,22 @@
 	list-style-type: none; 
 }
 
+.menu a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*
+.menu a:hover {
+	cursor: pointer;
+}
+*/
+
+.menu a.it:hover, a.it:active {
+  font-size: 150%;
+}
+
+
 /* CLASS FOR BODY */
 .banner-image {
 
@@ -82,15 +98,26 @@
 }
 
 .banner-texte {
+	font-family: Lato;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
 	margin: 10px 10px 0px 0px;
 	max-width: 100%;
 }
 
 .banner-texte h2 {
-  font-family: Lato;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: bold;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+	padding-top:5px;
+padding-bottom:5px;
+margin-top:10px;
+margin-bottom:5px;
+}
+
+.banner-texte p {
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
 }
 
 /* CLASS FOR FOOTER */

@@ -184,6 +184,26 @@
 	margin-left: 400px;
 }
 
+/* CLASS FOR SUBSCRIBE */
+.subscribe {
+	height: 100px;
+	position: relative;
+	top: 50%;
+	font-size: 24px;
+	background-color:#F5F5F5;
+	width:80%;
+	text-align: center;	
+}
+
+.subscribe-center {
+  margin: 0;
+  position: absolute;
+  /*
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+  }
 
 /* CLASS FOR FOOTER */
 .socialnetwork {
@@ -205,7 +225,7 @@
 
 .background {
   /* 1. Set a background image */
-  background-image: url(../../images/travelbanner.jpg);   
+  background-image: url(../image/travelbanner.jpg);   
   /* 2. Make the background image cover the banner div */
 	background-size: cover;     
   /* 3. Center the image */

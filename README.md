@@ -8,7 +8,7 @@ The organisation of the project is:
 * Images stores in *img* folder
 
 Contributors of this project are:
-* Erell Kervella (erell.kervella@ieseg.fr)
+* Erell Kervella (erell.kervella@ieseg.fr) / branch is: branch-erell (2020/11/12)
 * Johan Sebag (johan.sebag@ieseg.fr)
 * Hugo Tahirialaoui (hugo.tahirialaoui@ieseg.fr)
 * Runpu Xiong (runpu.xiong@ieseg.fr)

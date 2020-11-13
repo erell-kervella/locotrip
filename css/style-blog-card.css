@@ -1,0 +1,60 @@
+.card {
+  display: flex;
+  flex: float;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  height: 200px;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
+.card .leftbox {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  border-radius: 2px;
+}
+
+.card .rightbox {
+  display: inline-block;
+  width: 100%;
+  
+  text-align: left;
+  border-radius: 2px;
+}
+
+.card .rightbox h2 {
+	letter-spacing: 0.25em;
+	/*text-transform: uppercase; */
+	height: 50px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+.card .rightbox  {
+    padding: 0px 0px 0px 0px;
+}
+
+.card .leftbox {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card .rightbox ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.card .rightbox ul li {
+  position: relative;
+  margin-left: 1em;
+}
+
+.card .rightbox ul li:before {
+  position: absolute;
+  left: -1em;
+  content: "+";
+}

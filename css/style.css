@@ -6,17 +6,25 @@
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
+  letter-spacing: 0.12em;
 }
 
-
+.cross-hr {
+	opcaity: 0.5;
+	width: 90%;
+	align-items	: center;
+}
 
 /* CLASS FOR CONTAINER */
 .container {
+  /* border: 1px solid green; */
   display: flex;
   justify-content: center;
+  margin: 15px 0;  
 }
 
 .example {
+  /* border: 1px solid rgb(128, 0, 6);	 */
   display: flex;
   justify-content: space-around;
   width: 90%;
@@ -26,14 +34,6 @@
 
 /* CLASS FOR MENU */
 
-.item-left{
-  width: 30%;
-}
-
-.item-right{
-  width: 70%;
-}
-
 .item-relative {
   position: relative;
   top: -5px;
@@ -41,10 +41,9 @@
 }
 
 .title {
-	font-size: 24px;
+	font-size: 36px;
 	line-height: 26px;
-	letter-spacing: 0.25em;
-	text-transform: uppercase;
+	letter-spacing: 0.125em;
 }
 
 .action {
@@ -69,8 +68,12 @@
 
 .menu li {
 	float: left;
-	margin: 0px 10px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	list-style-type: none; 
+}
+
+.menu li.menu-it {
+	width: 130px;
 }
 
 .menu a {
@@ -90,11 +93,48 @@
 
 
 /* CLASS FOR BODY */
+
+.item-left{
+	width: 60%;
+  }
+
+.item-left-specific1{
+	width: 60%;
+	background-image: url("../image/background.jpg");
+	background-size: 100% auto;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.item-left-specific2{
+	width: 40%;
+	background-image: url("../image/sagradafamilia.jpg");
+	background-size: 75% auto;
+	background-position: center ;
+	background-repeat: no-repeat;
+	background-color:#f7f7f7;	
+}
+  
+.item-right{
+	width: 40%;
+}
+
+.item-right-specific1{
+	width: 40%;
+	background-color:#f7f7f7;
+}
+
+.item-right-specific2{
+	width: 60%;
+	background-color:#f7f7f7;
+}
+
 .banner-image {
-
-	margin: 10px 10px 0px 0px;
-	width: 95%;
-
+	/*
+	margin: 0px 0px 0px 0px;
+	width: 65%;
+	background-repeat: no-repeat;
+	*/
 }
 
 .banner-texte {
@@ -102,13 +142,14 @@
 	font-size: 15px;
 	font-style: normal;
 	font-weight: bold;
-	margin: 10px 10px 0px 0px;
+	margin: 0px 10px 10px 10px;
 	max-width: 100%;
 }
 
 .banner-texte h2 {
 	letter-spacing: 0.25em;
-	text-transform: uppercase;
+	/*text-transform: uppercase; */
+	height: 50px;
 	padding-top:5px;
 	padding-bottom:5px;
 	margin-top:10px;
@@ -116,54 +157,42 @@
 }
 
 .banner-texte p {
-	letter-spacing: 0.12em;
-	text-transform: uppercase;
+	/* letter-spacing: 0.12em; */
+	/* text-transform: uppercase; */
 }
 
 
-/*spainish flag & sentence*/
+/*spanish flag & sentence */
 
 .flagspain-image {
 	margin: 10px 10px 0px 0px;
-	width: 40%;
+	display:inline;
+	width: 10%;
+	float:left;
 }
 .meetbarcelona {
+
+	display:inline;
 	letter-spacing: 0.25em;
-	text-transform: uppercase;
-	padding-top:5px;
-	padding-bottom:5px;
-	margin-top:10px;
-	margin-bottom:5px;
-	margin-left: -200px;
+
 }
 
-/*Picture & cards*/
-.card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-	padding: 20px;
+blockquote {
+    position: relative;
 }
-.card img {
-  width: 150px;
+blockquote:before {
+    font-size: 2em;
+    line-height: 1;
+    content: "\201C";
 }
-.card h3 {
-  flex-grow: 1;
-  padding-left: 20px;
+blockquote:after {
+    font-size:2em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
 }
 
-.cards {
-  display: flex;
-	flex-wrap: wrap;
-	 display: inline-block;
- vertical-align: middle;
- float: none;
-}
-.card{
-  flex-basis: 250px;
-	flex-grow: 1;
-	margin: 10px;
-}
 
 /*3 pictures*/
 

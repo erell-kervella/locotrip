@@ -4,13 +4,17 @@
 	<title>Locotrip</title> 
 	<meta charset="utf-8">
 	<script src="https://kit.fontawesome.com/33419dcfeb.js" crossorigin="anonymous"></script>
-    <link href='css/style.css' rel='stylesheet'/>
+	<link href='css/style.css' rel='stylesheet'/>
+	<link href='css/style-blog-card.css' rel='stylesheet'/>
   </head>
   <body>
 
 	<!-- HEADER -->
     <div class='container'>
       <div class='example relative'>
+        <div class='item'>
+			<!-- EMPTY -->
+		</div>		  
         <div class='item'>
 			<div class="title">Locotrip</div>
 		</div>
@@ -25,7 +29,6 @@
       </div>
     </div>
 	<!-- END OF HEADER -->
-
 	
 	<!-- MENUS -->
     <div class='container'>
@@ -34,13 +37,13 @@
 		
 			<div class="menu">
 			   <ul>
-				  <li><a class="it" href="#">Home</a></li>
-				  <li><a class="it" href="travel.html">Travel</a></li>
-				  <li><a class="it" href="live_passion.html">Live my passion</a></li>
-				  <li><a class="it" href="hosts.html">Hosts</a></li>
-				  <li><a class="it" href="review.html">Review</a></li>
-				  <li><a class="it" href="stories.html">Stories</a></li>
-				  <li><a class="it" href="contact.html">Contact</a></li>
+				  <li class="menu-it"><a class="it" href="#">Home</a></li>
+				  <li class="menu-it"><a class="it" href="travel.html">Travel</a></li>
+				  <li class="menu-it"><a class="it" href="live_passion.html">Live my passion</a></li>
+				  <li class="menu-it"><a class="it" href="hosts.html">Hosts</a></li>
+				  <li class="menu-it"><a class="it" href="review.html">Review</a></li>
+				  <li class="menu-it"><a class="it" href="stories.html">Stories</a></li>
+				  <li class="menu-it"><a class="it" href="contact.html">Contact</a></li>
 				</ul>
 			</div>
 			
@@ -54,16 +57,19 @@
     <div class='container'>
       <div class='example relative'>
 	  
-        <div class='item-left'>
-			<img class="banner-image" src="./image/background.jpg" ></img>
+        <div class='item-left-specific1'>
+			<!-- <img class="banner-image" src="./image/background.jpg" ></img> -->
 		</div>
-        <div class='item-right'>
+        <div class='item-right-specific1'>
 
 			<div class="banner-texte">
 				<h2>Discover a new culture</h2>
+				<br>
 				<p>With Locotrip, you prepare yourself to get to know the culture of a country in the most personalized way possible. According to your preferences and desires, you will experience a unique trip that you will not soon forget.
 				</p>
+				<br>
 				<h2>Travel around the world</h2>
+				<br>
 				<p>Since the beginning of humanity, it has never been easier to travel around the world and discover new countries, people, things to do, etc. It's time to launch yourself and discover the planet you live on.</p>
 			</div>
 		</div>
@@ -74,51 +80,71 @@
 	<!-- END BODY (TO CHANGED) -->
 
 
-	<!-- Spanish flag & sentence --> 
+	<!-- SPANISH FLAG - SENTENCE --> 
     <div class='container'>
       <div class='example relative'>
 	  
         <div class='item-left'>
 			<img class="flagspain-image" src="./image/flagspain.jpg" ></img>
+			<blockquote>
+			<span  class="meetbarcelona">				
+				Meet Barcelona, modern architecture, gastronomy and capital of sun
+			</span>		
+		</blockquote>
 		</div>
-        <div class='item-right'>
 
-			<div class="meetbarcelona">
-				<h2>Meet Barcelona, modern architecture, gastronomy and capital of sun</h2>
-			</div>		
+		<div class='item-right'>
+			<!-- EMPTY -->
 		</div>
-      </div>
-    </div>
-	
-    <!--Picture & cards -->
+
+	  </div>
+	</div>
+
+	<!-- PICTURE & CARDS -->
     <div class='container'>
-      <div class='example relative'>
-	  
-        <div class='item-left'>
-			<img class="banner-image" src="./image/sagradafamilia.jpg" ></img>
-		</div>
-        <div class='item-right'>
-        	<div class="card">
-				<img class="#" src="./image/beach.jpg">
-					<h3>Experiences
-						Sagrada Familia, Gaudi’s Emblematic Temple
-						Beach Party
-						Picasso Museum</h3>		
-			</div>		
-		</div>
-		 <div class='item-right'>
-        	<div class="card">
-				<img class="#" src="./image/tapas.jpg">
-					<h3>Food
-						Tapas
-						Meat
-						Pailla</h3>		
-			</div>		
-		</div>
-      </div>
-    </div>
+		<div class='example relative'>
+		
+		  <div class='item-left-specific2'>
 
+		  </div>
+  
+		  <div class='item-right-specific2'>
+			  <div class="card">
 
+				<div class="leftbox" style="background-image: url(./image/beach.jpg)"></div>
+				<div class="rightbox">
+				  <h2>Experiences</h2>
+				  <ul class="data">
+					<li>Sagrada Familia, Gaudi’s Emblematic Temple</li>
+					<li>Beach Party</li>
+					<li>Picasso Museum</li>
+				  </ul>
+				</div>
+			  </div>		
+
+			  <div class="card">
+
+				<div class="leftbox" style="background-image: url(./image/tapas.jpg)"></div>
+				<div class="rightbox">
+				  <h2>Foods</h2>
+				  <ul class="data">
+					<li>Tapas</li>
+					<li>Meat</li>
+					<li>Pailla</li>
+				  </ul>
+				</div>
+
+			  </div>		
+		  </div>
+		</div>
+	  </div>
+
+	<!-- END PICTURE & CARDS -->	
+
+	<div class='container'>
+		<hr class="cross-hr" />
+	</div>
+	
     <!-- 3 pictures --> 
 
    <div class='container'>
@@ -135,6 +161,10 @@
 		</div>
       </div>
     </div>  
+
+	<div class='container'>
+		<hr class="cross-hr" />
+	</div>
 
 	<!-- NEWSLETTER -->
     <div class='container'>

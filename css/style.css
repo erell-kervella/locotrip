@@ -114,9 +114,25 @@
 	background-repeat: no-repeat;
 	background-color:#f7f7f7;	
 }
+
+.item-left-specific3{
+	width: 60%;
+	background-size: 100% auto;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
   
 .item-right{
 	width: 40%;
+}
+
+.item-1-3{
+	width: 33%;
+}
+
+.item-100{
+	width: 100%;
+
 }
 
 .item-right-specific1{
@@ -171,10 +187,10 @@
 	float:left;
 }
 .meetbarcelona {
-
+/*
 	display:inline;
 	letter-spacing: 0.25em;
-
+*/
 }
 
 blockquote {
@@ -194,46 +210,6 @@ blockquote:after {
 }
 
 
-/*3 pictures*/
-
-.fuertaventura-image {
-	width: 200px;
-	height: 150px;
-}
-
-.india-image {
-	width: 200px;
-	height: 150px;	
-	margin-left: 300px;
-}
-
-.tokyo-image {
-	width: 200px;
-	height: 150px;
-	margin-left: 400px;
-}
-
-/* CLASS FOR SUBSCRIBE */
-.subscribe {
-	height: 100px;
-	position: relative;
-	top: 50%;
-	font-size: 24px;
-	background-color:#F5F5F5;
-	width:80%;
-	text-align: center;	
-}
-
-.subscribe-center {
-  margin: 0;
-  position: absolute;
-  /*
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);*/
-  }
-
 /* CLASS FOR FOOTER */
 .socialnetwork {
 	font-size: 14px;
@@ -250,7 +226,7 @@ blockquote:after {
 }
 
 
-/* TRAVEL PAGE */ 
+/* TRAVEL PAGE (TO MOVE TO SPECIFIC CSS STYLE) */ 
 
 .background {
   /* 1. Set a background image */

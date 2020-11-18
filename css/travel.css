@@ -1,0 +1,196 @@
+.travel-background {
+  /* 1. Set a background image */
+  background-image: url(../image/travelbanner.jpg);   
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;     
+  /* 3. Center the image */
+	background-position: center;
+	padding: 5%;
+}
+.travel-background h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Selection of criteria */
+
+.travel-cercle {
+  height: 150px;
+  width: 700px;
+  border-radius: 35px;
+  background: #ECE2E2;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.item-menu-1{
+
+}
+.item-menu-2{
+    background-color: #ffffff;
+
+	position:absolute;
+	left:106px;
+	bottom:10px;
+}
+
+.table {
+}
+
+.td-up {
+	border: 0px;
+	background-color: #737373;
+	font-style: normal;
+	font-weight: bold;
+	padding: 10px;
+	padding-right: 10px;
+
+}
+
+.td-down {
+	border: 1px;
+	background-color: #eee;
+	font-style: italic;
+    font-weight: normal;
+	padding: 10px;
+}
+
+.outer-container {
+    display: table;
+    width: 100%;
+    height: 250px;
+}
+
+.inner-container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.centered-content {
+	display: inline-block;
+	padding : 30px;
+	position:relative;
+	transform: translateY(-30%); 
+}
+
+.product-card__details {
+	height: 80px;
+}
+
+.product-card__title {
+	font-size: 12px;
+	line-height: 10px;
+	margin: 10px 10px 10px 10px;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+}
+
+.product-card__description {
+	font-size: 12px;
+	line-height: 10px;
+	margin: 10px 10px 10px 10px;
+	letter-spacing: 0.25em;
+}
+
+.product-card__price {
+	font-size: 12px;
+	line-height: 10px;
+	margin: 10px 10px 20px 40px;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+}
+
+.product-menu {
+	width: 350px;
+	background-color: #EEEEEE;
+	display: block;
+	padding: 20px;
+}
+
+.product-menu-box {
+	display: block;
+}
+
+.product-menu-title {
+	text-transform: uppercase;
+	
+}
+
+.product-menu-item {
+  list-style-type: none; 
+}
+
+.product-menu-item li {
+  margin: 15px;
+}
+
+
+.product-menu-item li:before {
+  left: -4em;
+  content: "+ ";
+  margin: 15px;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0; 
+
+/*
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    text-align:center;
+*/
+}
+
+.more .more-item {
+  position: relative;
+  top: -5px;
+  left: 0px;
+}
+
+.more .more-btn input  {
+  height: 45px;
+  width: 150%;
+  text-transform: uppercase;
+  cursor: pointer;  
+  font-weight: bold;  
+}
+
+.more .more-btn  input:focus {
+  outline: none;
+  outline: 2px solid #E86C8D;
+}
+
+.more .more-btn  #submit:hover {
+  background: #d45d7d;
+}
+
+
+/* */
+#lhs {
+  /* border: 2px solid red; */
+  margin: 10px auto;
+
+}
+#rhs1 {
+  /* border: 2px solid blue; */
+  width: 100%;  
+  margin: 10px auto;
+
+}
+ 
+#rhs2 {
+  /* border: 2px solid blue; */
+  height: 80px;
+  margin: 10px auto;
+
+}
+#rhs2 {
+  margin: 10px auto;
+
+}
+

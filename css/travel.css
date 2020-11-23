@@ -1,4 +1,5 @@
 /* TOP TRAVEL SECTION */
+
 .travel-background {
   /* 1. Set a background image */
   background-image: url(../image/travelbanner.jpg);   
@@ -14,7 +15,9 @@
   text-align: center;
 }
 
+
 /* SELECTION OF CRITERIA */
+
 .travel-cercle {
   height: 150px;
   width: 700px;
@@ -76,8 +79,8 @@
 	transform: translateY(-30%); 
 }
 
-/* PRODUCT = TRAVEL */
 
+/* PRODUCT = TRAVEL */
 .product-card__details {
 	height: 80px;
 }
@@ -136,7 +139,6 @@
 }
 
 /* MORE BUTTON */
-
 .more {
   display: flex;
   justify-content: center;
@@ -165,6 +167,7 @@
 .more .more-btn  #submit:hover {
   background: #d45d7d;
 }
+
 
 /* LEFT - RIGHT UP AND DOWN SUB SECTION */
 #lhs {

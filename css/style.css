@@ -23,7 +23,7 @@
   margin: 15px 0;  
 }
 
-.example {
+.part {
   /* border: 1px solid rgb(128, 0, 6);	 */
   display: flex;
   justify-content: space-around;
@@ -178,7 +178,7 @@
 }
 
 
-/*spanish flag & sentence */
+/*CLASS FOR SPANISH FLAG AND SENTENCE */
 
 .flagspain-image {
 	margin: 10px 10px 0px 0px;

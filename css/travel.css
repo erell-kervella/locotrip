@@ -1,3 +1,5 @@
+/* TOP TRAVEL SECTION */
+
 .travel-background {
   /* 1. Set a background image */
   background-image: url(../image/travelbanner.jpg);   
@@ -13,7 +15,8 @@
   text-align: center;
 }
 
-/* Selection of criteria */
+
+/* SELECTION OF CRITERIA */
 
 .travel-cercle {
   height: 150px;
@@ -35,6 +38,7 @@
 	bottom:10px;
 }
 
+/* SECTION FOR TOP TABLE AND 2 SPECIFIC ROWS */
 .table {
 }
 
@@ -75,6 +79,8 @@
 	transform: translateY(-30%); 
 }
 
+
+/* PRODUCT = TRAVEL */
 .product-card__details {
 	height: 80px;
 }
@@ -126,24 +132,17 @@
   margin: 15px;
 }
 
-
 .product-menu-item li:before {
   left: -4em;
   content: "+ ";
   margin: 15px;
 }
 
+/* MORE BUTTON */
 .more {
   display: flex;
   justify-content: center;
   margin: 15px 0; 
-
-/*
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    text-align:center;
-*/
 }
 
 .more .more-item {
@@ -170,7 +169,7 @@
 }
 
 
-/* */
+/* LEFT - RIGHT UP AND DOWN SUB SECTION */
 #lhs {
   /* border: 2px solid red; */
   margin: 10px auto;

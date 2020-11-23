@@ -1,5 +1,4 @@
 /* TOP TRAVEL SECTION */
-
 .travel-background {
   /* 1. Set a background image */
   background-image: url(../image/travelbanner.jpg);   
@@ -15,9 +14,7 @@
   text-align: center;
 }
 
-
 /* SELECTION OF CRITERIA */
-
 .travel-cercle {
   height: 150px;
   width: 700px;
@@ -79,8 +76,8 @@
 	transform: translateY(-30%); 
 }
 
-
 /* PRODUCT = TRAVEL */
+
 .product-card__details {
 	height: 80px;
 }
@@ -138,7 +135,17 @@
   margin: 15px;
 }
 
+.product-menu-item a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.product-menu-item a.it:hover, a.it:active {
+  font-size: 150%;
+}
+
 /* MORE BUTTON */
+
 .more {
   display: flex;
   justify-content: center;
@@ -167,7 +174,6 @@
 .more .more-btn  #submit:hover {
   background: #d45d7d;
 }
-
 
 /* LEFT - RIGHT UP AND DOWN SUB SECTION */
 #lhs {

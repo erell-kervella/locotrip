@@ -7,6 +7,11 @@ The organisation of the project is:
 * All css files in *css* folder. The main css includes all others css stylesheets
 * Images stores in *img* folder
 
+For each page each must add:
+- ad google script (describe on https://developers.google.com/analytics/devguides/collection/analyticsjs)
+- author name in comment (<!-- author: xxxx -->
+- modified by in comment (<!-- modified by: xxxx -->
+
 Contributors of this project are:
 * Erell Kervella (erell.kervella@ieseg.fr) / branch is: branch-erell (2020/11/12)
 * Johan Sebag (johan.sebag@ieseg.fr)

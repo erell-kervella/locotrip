@@ -1,49 +1,356 @@
 <!DOCTYPE html>
- <html lang="en">
+
+<!-- Author: Erell KERVELLA (erell.kervella@ieseg.fr) -->
+<!-- Modified by: -->
+
+<html>
   <head>
-   <meta charset="UTF-8">
-    <title>mycart</title>
-
-<link rel="stylesheet" href="css/style3.css">
-
- </head>
-
-  <body>
-
-<h1 style="font-size:40px;margin-top:5px;margin-left:850px;position:absolute;">Locotrip
- </h1>
-<font style="font-size:20px;color:grey;margin-left:1320px;margin-top:20px;position:absolute;">SIGN IN
-  </font>
-<font style="font-size:20px;color:grey;margin-left:1420px;margin-top:20px;position:absolute;">MY CART
-   </font>
-
-
-<div class="container">
-
-<font style="font-size:25px;color:black;margin-left:350px;margin-top:150px;position:absolute;">HOME</font>
- <font style="font-size:25px;color:black;margin-left:500px;margin-top:150px;position:absolute;">TRAVEL</font>
-  <font style="font-size:25px;color:black;margin-left:650px;margin-top:150px;position:absolute;">LIVE MY </br>PASSION</font>
-   <font style="font-size:25px;color:black;margin-left:800px;margin-top:150px;position:absolute;">HOSTS</font>
-    <font style="font-size:25px;color:black;margin-left:950px;margin-top:150px;position:absolute;">REVIEW</font>
-     <font style="font-size:25px;color:black;margin-left:1100px;margin-top:150px;position:absolute;">STORIES</font>
-      <font style="font-size:25px;color:black;margin-left:1250px;margin-top:150px;position:absolute;">CONTACT</font>
-
-
-</div>
-
-
-<div class="login">
-  <div class="login-triangle"></div>
   
-  <h2 class="login-header">Log in</h2>
+	<!-- Google Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  <form class="login-container">
-    <p><input type="email" placeholder="Email"></p>
-    <p><input type="password" placeholder="Password"></p>
-    <p><input type="submit" value="Log in"></p>
-  </form>
-</div>
+	ga('create', 'UA-XXXXX-Y', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+	<title>Locotrip</title> 
+	<meta charset="utf-8">
+	<script src="https://kit.fontawesome.com/33419dcfeb.js" crossorigin="anonymous"></script>
+	<link href='css/style.css' rel='stylesheet'/>
+	<link href='css/login.css' rel='stylesheet'/>
+	<link href='css/style-blog-card.css' rel='stylesheet'/>
+	<link href='css/subscribe.css' rel='stylesheet'/>
+	
+	<meta name="description" content="Locotrip offers you the best prices on flights, weekends and tailor-made stays. Compare prices and book your cheap trip now!">
+	<meta name="author" content="Erell Kervella (erell.kervella@ieseg.fr)">
+	<meta name="author" content="Johan Sebag (johan.sebag@ieseg.fr)">
+	<meta name="author" content="Hugo Tahirialaoui (hugo.tahirialaoui@ieseg.fr)">
+	<meta name="author" content="Runpu Xiong (runpu.xiong@ieseg.fr)">
+
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+  </head>
+  <body>
+  
+	<!-- LOGIN -->	
+	<div class="login">
+	  <div class="login-triangle"></div>
+	  
+	  <h2 class="login-header">Log in</h2>
+
+	  <form class="login-container">
+		<p><input type="email" placeholder="Email"></p>
+		<p><input type="password" placeholder="Password"></p>
+		<p><input type="submit" value="Log in"></p>
+	  </form>
+	</div>
+	<!-- LOGIN -->
+
+	<div class="overlay">
+	
+	<!-- HEADER -->
+    <div class='container'>
+      <div class='part relative'>
+        <div class='item'>
+			<!-- EMPTY -->
+		</div>		  
+        <div class='item'>
+			<div class="title">Locotrip</div>
+		</div>
+        <div class='item-relative'>
+			<div class="action">
+				<ul>
+					<li><a class="it" href="login.html">Sign in</a></li>
+					<li>My Cart</li>
+				</ul>
+			</div>
+		</div>
+      </div>
+    </div>
+	<!-- END OF HEADER -->
+	
+	<!-- MENUS -->
+    <div class='container'>
+      <div class='part relative'>
+        <div class='item'>
+		
+			<div class="menu">
+			   <ul>
+				  <li class="menu-it"><a class="it" href="#">Home</a></li>
+				  <li class="menu-it"><a class="it" href="travel.html">Travel</a></li>
+				  <li class="menu-it"><a class="it" href="live_passion.html">Live my passion</a></li>
+				  <li class="menu-it"><a class="it" href="hosts.html">Hosts</a></li>
+				  <li class="menu-it"><a class="it" href="review.html">Review</a></li>
+				  <li class="menu-it"><a class="it" href="stories.html">Stories</a></li>
+				  <li class="menu-it"><a class="it" href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			
+		</div>
+      </div>
+    </div>
+	<!-- END OF MENUS -->
+    
+	<!-- BODY (TO CHANGED) -->
+	<!-- -->	
+    <div class='container'>
+      <div class='part relative'>
+	  
+        <div class='item-left-specific1'>
+		</div>
+        <div class='item-right-specific1'>
+
+			<div class="banner-texte">
+				<h2>Discover a new culture</h2>
+				<br>
+				<p>With Locotrip, you prepare yourself to get to know the culture of a country in the most personalized way possible. According to your preferences and desires, you will experience a unique trip that you will not soon forget.
+				</p>
+				<br>
+				<h2>Travel around the world</h2>
+				<br>
+				<p>Since the beginning of humanity, it has never been easier to travel around the world and discover new countries, people, things to do, etc. It's time to launch yourself and discover the planet you live on.</p>
+			</div>
+		</div>
+      </div>
+    </div>
+	
+	<!-- -->
+	<!-- END BODY (TO CHANGED) -->
 
 
-</body>
+	<!-- SPANISH FLAG - SENTENCE --> 
+    <div class='container'>
+      <div class='part relative'>
+	  
+        <div class='item-left-specific3'>
+			<img class="flagspain-image" src="./image/flagspain.jpg" ></img>
+			<blockquote>
+			<span  class="meetbarcelona">				
+				Meet Barcelona, modern architecture, gastronomy and capital of sun
+			</span>		
+			</blockquote>
+		</div>
+
+		<div class='item-right'>
+			<!-- EMPTY -->
+		</div>
+
+	  </div>
+	</div>
+
+	<!-- PICTURE & CARDS -->
+    <div class='container'>
+		<div class='part relative'>
+		
+		  <div class='item-left-specific2'>
+
+		  </div>
+  
+		  <div class='item-right-specific2'>
+
+				<div class="row">
+				  <div class="col-md-offset-1 col-md-5 col-xs-12">
+					<div class="card horizontal">
+					  <div class="card-image">
+						<img src="./image/beach.jpg">
+					  </div>
+					  <div class="card-stacked">
+						<div class="card-content">
+						  <h2>Experiences</h2>
+						  <ul>
+							<li>Sagrada Familia, Gaudi’s Emblematic Temple</li>
+							<li>Beach Party</li>
+							<li>Picasso Museum</li>
+						  </ul>
+						  <div class="card-readme">
+							<a href=""><p style="text-align: right;">Read more</p></a>
+						  </div>
+						 </div>
+					   </div>
+					 </div>
+				  </div>
+				</div>
+	
+
+				<div class="row">
+				  <div class="col-md-offset-1 col-md-5 col-xs-12">
+					<div class="card horizontal">
+					  <div class="card-image">
+						<img src="./image/tapas.jpg">
+					  </div>
+					  <div class="card-stacked">
+						<div class="card-content">
+						  <h2>Foods</h2>
+						  <ul class="data">
+							<li>Tapas</li>
+							<li>Meat</li>
+							<li>Pailla</li>
+						  </ul>
+						  <div class="card-readme">
+							<a href=""><p style="text-align: right;">Read more</p></a>
+						  </div>						  
+						 </div>
+					   </div>
+					 </div>
+				  </div>
+				</div>	
+				
+		  </div>
+		</div>
+	  </div>
+
+	<!-- END PICTURE & CARDS -->	
+
+	<div class='container'>
+		<hr class="cross-hr" />
+	</div>
+	
+    <!-- 3 pictures --> 
+
+   <div class='container'>
+      
+	  <div class='part relative'>
+			<div class='item'>
+				<div class="title">Best Trips</div>
+			</div>			
+	  </div>
+   </div>
+
+   <div class='container'>
+	  <div class='part relative'>
+	  
+			<div class='item-1-3'>
+			
+				<div class="row">
+				
+				  <div class="col-md-offset-1 col-md-5 col-xs-12">
+					<div class="card horizontal">
+					  <div class="card-image">
+						<img src="./image/fuertaventura.jpg">
+					  </div>
+					 </div>
+				  </div>
+				  
+				  <div class="col-md-offset-1 col-md-5 col-xs-12">
+					<div class="card horizontal">
+					  <div class="card-stacked">
+						<div class="card-content">
+						  <h3>Fuerteventura, Spain</h3>
+						  <p>Jonah went to the Canary Islands for one week and learned victoria ko surf. Learn more about this trip!</p>
+						 </div>
+					   </div>
+					 </div>
+				  </div>
+				  
+				</div>
+			
+			</div>
+			
+			<div class='item-1-3'>
+			
+				<div class="row">
+				
+				  <div class="col-md-offset-1 col-md-5 col-xs-12">
+					<div class="card horizontal">
+					  <div class="card-image">
+						<img src="./image/india.jpg">
+					  </div>
+					 </div>
+				  </div>
+
+				  <div class="col-md-offset-1 col-md-5 col-xs-12">
+					<div class="card horizontal">
+					  <div class="card-stacked">
+						<div class="card-content">
+						  <h2>New Delhi, India</h2>
+						  <p>Gabriel invites you to (re)discover India with his family.</p>
+						 </div>
+					   </div>
+					 </div>
+				  </div>
+				  
+				</div>				
+			
+			</div>			
+
+			<div class='item-1-3'>
+			
+				<div class="row">
+				  <div class="col-md-offset-1 col-md-5 col-xs-12">
+					<div class="card horizontal">
+					  <div class="card-image">
+						<img src="./image/tokyo.jpg">
+					  </div>
+					 </div>
+				  </div>
+
+				  <div class="col-md-offset-1 col-md-5 col-xs-12">
+					<div class="card horizontal">
+					  <div class="card-stacked">
+						<div class="card-content">
+						  <h2>Tokyo, Japan</h2>
+						  <p>Marie shares his history of how his trip in Japan with Gon, art-martial professional.</p>
+						 </div>
+					   </div>
+					 </div>
+				  </div>
+
+				</div>				
+			
+			</div>	
+		</div>
+    </div>  
+
+	<div class='container'>
+		<hr class="cross-hr" />
+	</div>
+
+	<!-- NEWSLETTER -->
+    <div class='container'>
+
+		<div class='part relative'>
+			<div class='item-100'>
+				<div class="subscribe">
+					<label class="label" >Subscribe to our newsletter</label>
+					<input type="text" id="email" placeholder="NAME@part.COM">
+					<input type="submit" id="submit" value="Subscribe">
+				</div>
+				</div>
+			</div>
+		</div>
+    </div>
+	<!-- END OF NEWSLETTER -->	
+	
+	<div class='container'>
+		<hr class="cross-hr" />
+	</div>	
+	
+	<!-- FOOTER -->
+    <div class='container'>
+      <div class='part relative'>
+        <div class='item'>
+			<div class="locotrip-c">&copy; 2020 Locotrip. All rights reserved</div>
+		</div>
+        <div class='item'>
+			<div class="socialnetwork">
+				<ul class="list-inline">
+					<li><a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram-square"> </i></a></li>
+					<li><a href="https://www.whatsapp.com/?lang=fr" target="_blank"><i class="fab fa-whatsapp-square"></i></a></li>
+					<li><a href="https://twitter.com/?lang=fr" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+					<li><a href="fr-fr.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+				</ul>	
+			</div>		
+		</div>
+        <div class='item'>Designed by LocoTrip</div>
+      </div>
+    </div>
+	<!-- END OF FOOTER -->
+	
+	</div>
+
+  </body>
 </html>

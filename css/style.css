@@ -32,6 +32,8 @@
   /* background-color: #D6E9FE; BACKGROUND TO SEE CONTAINER DISABLE IN PRODUCTION*/
 }
 
+
+
 /* CLASS FOR MENU */
 
 .item-relative {
@@ -58,6 +60,14 @@
 	margin: 0px 20px 0px 0px;
 	list-style-type: none; 
 	}
+	
+.action  .it {
+	text-decoration: none;
+}
+
+.action  a.it:hover, a.it:active {
+  font-size: 150%;
+}
 
 .menu {
 	font-size: 14px;

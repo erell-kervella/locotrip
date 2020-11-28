@@ -1,106 +1,321 @@
-body
-{
-	font-size: 18px;
-	font-style:italic;
-	margin-top:0px;
-	
+/* TOP REVIEW SECTION */
+.review-background {
+  /* 1. Set a background image */
+  background-image: url(../image/reviewbanner.jpg);   
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;     
+  /* 3. Center the image */
+	background-position: center;
+	padding: 5%;
+}
+.review-background h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
 }
 
-.container
-{
-	width:1440px;
-	height:800px;
-	background-color:white;
-	margin-top:0px;
-	margin-left:70px;
-}
-.container2
-{
-	width:1440px;
-	height:300px;
-	background-color:white;
-	margin-top:100px;
-	margin-left:150px;
-	
-}
-.container3
-{
-	width:1440px;
-	height:600px;
-	background-color:white;
-	margin-top:0px;
-	margin-left:150px;
-	
-	
-}
-.container4
-{
-	width:300px;
-	height:550px;
-	background-color:#F0FFF0;
-	margin-top:10px;
-	margin-left:800px;
-	position:absolute;
-	
+/* REVIEW */
+
+.item-left-specific1-review {
+	width: 60%;
+	background-image: url("../image/swimmingpool.png");
+	background-size: 90% auto;
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 400px;
 }
 
-.container7
-{
-	width:1440px;
-	height:300px;
-	background-color:white;
-	margin-top:10px;
-	margin-left:150px;
-	
+.item-rigth-specific1-review {
+	width: 20%;
+	height: 400px;
+	background-color:#eee;
+	text-align: center;
+}
+
+/*CLASS FOR FUERTEVENTURA FLAG AND SENTENCE */
+
+.fuerteventura-image {
+	margin: 10px 10px 0px 0px;
+	display:inline;
+	width: 10%;
+	float:left;
+}
+.fuerteventura p{
+	font-size:50px;
+	font-style: italic;
+}
+
+/* SECTION FOR TOP TABLE AND 2 SPECIFIC ROWS */
+.review-host-img  {
+	border-radius: 50%;
+	width:  80px;
+	height: 80px;
+	margin: 10px;
+}
+
+.review-host-name {
+	font-size: 80%;
+	font-style: italic;
+	text-decoration: underline;		
+}
+
+.review-host-myhost {
+	font-size: 80%;
+	text-transform: uppercase;
+
+}
+
+.table-host {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-host .td {
+	border: 0px;
+	padding: 10px;
+	text-align: center;
+}
+
+.table-host .td img {
+	border-radius: 0;
+	width:  50px;
+	height: 50px;
+	object-fit: cover;
+	background-color:#c5c5c5;
+}
+
+/* CLASS FOR APPENDIX */
+.review-appendix {
+    width:100%;
+}
+
+.review-appendix .review-appendix-wrapper {
+    margin-right:0px;
+}
+
+.review-appendix  .review-appendix-wrapper textarea{
+/*resize: none;
+  border: none;
+  outline: none; */
+  width: 100%;
+  padding: 10px;
+  height: 150px;
+  background-color:#c5c5c5;
+}
+
+/* CLASS FOR TERMS & CONDITIONS */
+.review-terms-conditions {
+  width: 60%;
+}
+
+.review-terms-conditions p{
+	font-size:14px;
+	text-align: left;	
+	color: #c5c5c5;
+}
+
+.review-terms-conditions h1{
+	font-size:18px;
+	padding: 0px 0px 10px;
+	font-style: bold;
+	text-align: left;	
+	color: #c5c5c5;
+}
+
+/* CLASS FOR ADDRESS */
+.review-address {
+    width:100%;
+}
+
+.review-address h1{
+}
+
+.review-address .review-address-wrapper {
+    margin-right:100px;
+}
+
+.review-address  .review-address-wrapper textarea{
+  resize: none;
+  /*
+  border: none;
+  outline: none; */
+  width: 100%;
+  padding: 10px;
+  height: 150px;
+
+  background-color:#c5c5c5;
+}
+
+.item-left-specific1-review-address {
+	width: 80%;
+}
+
+.item-right-specific1-review-address {
+	width: 20%;
+	transform: translateY(5%);
+	top: 50%;
+}
+
+/* BUTTONS */
+
+.address-btn {
+/*
+  display: flex;
+  justify-content: center;
+  margin: 10px 0; 
+  */
+}
+
+.address-btn .address-btn-btn input  {
+  height: 45px;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;  
+  font-weight: bold;  
+}
+
+.address-btn .address-btn-btn  input:focus {
+  outline: none;
+  outline: 2px solid #E86C8D;
+}
+
+.address-btn .address-btn-btn  #submit:hover {
+  background: #d45d7d;
+}
+
+.table-review-address {
+	/* border: 1px solid black; */
+    table-layout: fixed;
+}
+
+.table-review-address td {
+	/* border: 1px solid black; */
+	width: 400px;
+	padding: 10px;
+	text-align: center;
+}
+
+.address-btn-btn input {
+    width: 100%;
+    box-sizing: border-box;
+	}
+
+/* CLASS FOR PAIEMENT */
+.review-paiement {
+    width:100%;
+}
+
+.review-paiement h1 {
+
+}
+
+.item-left-specific1-review-paiement {
+  display: flex;
 }
 
 
-
-
-
-
-.content-border
-{
-	width:1300px;
-	height:2px;
-	background-color:white;
-	margin-top:20px;
-	margin-left:150px;
+.table-review-paiement {
+    table-layout: fixed;
 }
 
-.container5
-{
-	width:1300px;
-	height:2px;
-	background-color:black;
-	margin-top:1100px;
-	margin-left:150px;
-	
-	
+.table-review-paiement td {
+	text-align: center;
+	padding-bottom: 10px;
 }
 
-.container6
-{
-	width:1200px;
-	height:100px;
-	background-color:#F5F5F5;
-	margin-top:900px;
-	margin-left:47px;
-	position:absolute;
-	
-	
-	
-}
-.container8
-{
-	width:1300px;
-	height:100px;
-	background-color:white;
-	margin-top:1200px;
-	margin-left:150px;
+.paiement-btn {
+/*
+  display: flex;
+  justify-content: center;
+  margin: 10px 0; 
+  */
 }
 
+.paiement-btn .paiement-btn-btn input  {
+  height: 45px;
+  width: 250px;
+  text-transform: uppercase;
+  cursor: pointer;  
+  font-weight: bold;  
+}
+
+.paiement-btn .paiement-btn-btn  input:focus {
+  outline: none;
+  outline: 2px solid #E86C8D;
+}
+
+.paiement-btn .paiement-btn-btn  #submit:hover {
+  background: #d45d7d;
+}
+
+.card-image-paiement  img {
+	border-radius: 10px;
+	background-color: #ffffff;
+	width:  40%;
+	height: 100%;
+	padding: 5px;
+	border: 1px solid #000000;
+}
 
 
+/* RADIO BUTTON */
 
+.radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px 10px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 50px;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color:#c5c5c5;
+    border-color: #E86C8D;
+}
+
+.radio-toolbar input[type="radio"]:focus + label {
+    border: 2px dashed #E86C8D;
+}
+
+.radio-toolbar label:hover {
+  background-color: #dfd;
+}
+
+/* SUBSCRIBE FIELD */
+.subscribe-paiement {
+    vertical-align: middle;
+    width: 200px;
+    text-align:center;
+}
+
+.subscribe-paiement input{
+	height: 50px;
+    width: 250px;
+	border: 1px solid #444;
+	border-radius: 15px;
+	background-color: #c5c5c5;
+	box-shadow: 10px 10px 8px #888888;
+}
+
+.subscribe-paiement input:focus {
+  height: 50px;
+  background-color: #E86C8D;
+}
+
+.subscribe-paiement input:focus {
+  outline: none;
+}
+
+.subscribe-paiement #submit:hover {
+  background: #d45d7d;
+  width: 100%;
+}
 
